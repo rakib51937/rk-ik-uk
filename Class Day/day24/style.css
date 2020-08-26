@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.char{
+width: 500px;
+height: 300px;
+background-color: rgb(199, 38, 38);
+
+}
+.tabel{
+width: 400px;
+height: 200px;
+background-color: cyan;
+
+}
+
+
+.slaider{
+    height: 100px;
+    width: 100%;
+background-color:red ;
+
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
